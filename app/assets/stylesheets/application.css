@@ -50,8 +50,6 @@
 
 .content{
     width: 100%;
-    height: 100%;
-    display: inline-block;
     display: flex;
 }
 
@@ -72,6 +70,11 @@
     }
     .content-right{
         display:none
+    }
+    .content-middle{
+        height: auto;
+        width: 100%;
+        background-color: white;
     }
 }
 
