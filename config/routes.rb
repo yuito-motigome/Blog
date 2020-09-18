@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :blogs
   root 'home#top'
   get "/" => "home#top"
+  get "1" => "post#news1"
 end
