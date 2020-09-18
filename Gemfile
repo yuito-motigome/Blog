@@ -60,6 +60,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rename'
 
 
-gem "pg"
+#gem "pg"
 
-#gem 'sqlite3'
+gem 'sqlite3'
