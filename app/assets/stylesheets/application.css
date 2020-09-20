@@ -81,6 +81,37 @@
 
 }
 
+.top{
+
+}
+
+.top-content {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px blue;
+    display: flex;
+    width: 70%;
+}
+.top-content p {
+    margin: 0; 
+    padding: 0;
+}
+
+.top-title a{
+    color: black;
+}
+
+.top-title{
+    text-align: center;
+}
+
+.top-image img{
+    width: 250px;
+    height: 150px;
+    vertical-align: bottom;
+}
+
 @media screen and (max-width:480px){
     .content-left{
         display:none
