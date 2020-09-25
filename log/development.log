@@ -1315,3 +1315,243 @@ Processing by PostController#news1 as HTML
 Completed 200 OK in 184ms (Views: 178.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-09-25 19:10:06 +0800
+Started GET "/" for ::1 at 2020-09-25 19:10:06 +0800
+Processing by HomeController#top as HTML
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1682.5ms)
+Completed 500 Internal Server Error in 1772ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/kzy19/OneDrive/画像/デスクトップ/program/vlog/tmp/cache/assets/sprockets/v3.0/Oc/OcHtDN8jeDOkbnksXLUqQ9QW97hKsXjd9G9mje210zM.cache.62939600.19676.580834, C:/Users/kzy19/OneDrive/画像/デスクトップ/program/vlog/tmp/cache/assets/sprockets/v3.0/Oc/OcHtDN8jeDOkbnksXLUqQ9QW97hKsXjd9G9mje210zM.cache)):
+     5: <div class="top">
+     6:     <div class="top-content">
+     7:         <div class="top-image">
+     8:             <%= image_tag "1-1.jpg"%>
+     9:         </div>
+    10:         <div class="top-title">
+    11:             <h2><%=link_to("マイクラを完全無料でやる方法","/1")%></h2>
+  
+app/views/home/top.html.erb:8:in `_app_views_home_top_html_erb__452356552_71959020'
+  Rendered home/top.html.erb within layouts/application (1794.0ms)
+Completed 200 OK in 2232ms (Views: 2207.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-25 19:10:38 +0800
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (41.3ms)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "1-1.png" is not present in the asset pipeline.
+):
+     5: <div class="top">
+     6:     <div class="top-content">
+     7:         <div class="top-image">
+     8:             <%= image_tag "1-1.png"%>
+     9:         </div>
+    10:         <div class="top-title">
+    11:             <h2><%=link_to("マイクラを完全無料でやる方法","/1")%></h2>
+  
+app/views/home/top.html.erb:8:in `_app_views_home_top_html_erb__452356552_125458200'
+Started GET "/" for ::1 at 2020-09-25 19:11:07 +0800
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 128ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:11:19 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 140ms (Views: 126.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:11:58 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 210ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:12:45 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (45.9ms)
+Completed 200 OK in 202ms (Views: 192.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:13:40 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (71.9ms)
+Completed 200 OK in 247ms (Views: 241.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:15:46 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 155ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:16:37 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 226ms (Views: 219.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:18:44 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (48.2ms)
+Completed 200 OK in 200ms (Views: 194.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:19:59 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 162ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:22:21 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 190ms (Views: 180.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:23:14 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 179ms (Views: 170.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:24:46 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 163ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:26:25 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (37.9ms)
+Completed 200 OK in 211ms (Views: 200.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:27:09 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 255ms (Views: 243.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:27:48 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 203ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:28:07 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (52.7ms)
+Completed 200 OK in 236ms (Views: 226.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:28:53 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 189ms (Views: 181.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:29:21 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 214ms (Views: 204.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:35:22 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 185ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:35:44 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 218ms (Views: 209.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:38:50 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (59.7ms)
+Completed 200 OK in 273ms (Views: 258.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:39:14 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (71.5ms)
+Completed 200 OK in 324ms (Views: 316.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:39:37 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 236ms (Views: 225.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:39:57 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (56.9ms)
+Completed 200 OK in 320ms (Views: 305.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:44:46 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 210ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-09-25 19:45:36 +0800
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 149ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:46:24 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 135ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for ::1 at 2020-09-25 19:46:27 +0800
+Processing by PostController#news1 as HTML
+  Rendering post/news1.html.erb within layouts/application
+  Rendered post/news1.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 163ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
